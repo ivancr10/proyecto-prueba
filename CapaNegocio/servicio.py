@@ -15,3 +15,10 @@ def eliminar_estudiante(id):
     estudiantes = leer_estudiantes()
     estudiantes = [e for e in estudiantes if e.id != id]
     guardar_estudiantes(estudiantes)
+
+def buscar_estudiante(id):
+    estudiantes = leer_estudiantes()
+    for e in estudiantes:
+        if e.id == id:
+            return e
+    return None

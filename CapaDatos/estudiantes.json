@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ivan Ramirez",
+        "edad": 20,
+        "carrera": "Ingenieria en Computacion"
+    },
+    {
+        "id": 2,
+        "nombre": "Maria Lopez",
+        "edad": 19,
+        "carrera": "Ingenieria en Computacion"
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Mora",
+        "edad": 21,
+        "carrera": "Ingenieria en Computacion"
+    }
+]

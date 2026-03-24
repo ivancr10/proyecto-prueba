@@ -2,7 +2,7 @@ import json
 import os
 from Entidades.estudiante import Estudiante
 
-ARCHIVO = "datos/estudiantes.json"
+ARCHIVO = "CapaDatos/estudiantes.json"
 
 def leer_estudiantes():
     if not os.path.exists(ARCHIVO):

@@ -1,6 +1,5 @@
-from Interfaz.menu import ejecutar
+from Interfaz.menu import AppEstudiantes
 
 if __name__ == "__main__":
-    ejecutar()
-
-
+    app = AppEstudiantes()
+    app.mainloop()
